@@ -1,0 +1,146 @@
+Removed Pin From Net: NetName=NetDD1_17 Pin=DD1-17
+Removed Pin From Net: NetName=NetDD1_29 Pin=DD1-29
+Removed Pin From Net: NetName=NetDD1_15 Pin=R32-2
+Removed Pin From Net: NetName=NetDD1_17 Pin=R33-2
+Removed Pin From Net: NetName=NetR34_1 Pin=R34-1
+Removed Pin From Net: NetName=NetDD1_29 Pin=R34-2
+Removed Pin From Net: NetName=NetR36_1 Pin=R36-1
+Removed Pin From Net: NetName=NetDD1_16 Pin=R36-2
+Removed Pin From Net: NetName=NetR34_1 Pin=XP5-5
+Removed Pin From Net: NetName=NetR36_1 Pin=XP6-5
+Change Component Comment : Designator=R34 Old Comment=1k New Comment=100
+Change Component Comment : Designator=R36 Old Comment=1k New Comment=100
+Change Component Comment : Designator=XP4 Old Comment=CONNECT_2.54_5 New Comment=UART_CONN
+Change Component Comment : Designator=XP6 Old Comment=CONNECT_2.54_6_2 New Comment=PLD6
+Change Component Comment : Designator=XP5 Old Comment=CONNECT_2.54_6_2 New Comment=PLD-6
+Change Component Comment : Designator=R1 Old Comment=Res_0805 New Comment=100
+Change Component Designator: OldDesignator=BQ1 NewDesignator=BQ2
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R7
+Change Component Designator: OldDesignator=R3 NewDesignator=R8
+Change Component Designator: OldDesignator=R4 NewDesignator=R9
+Change Component Designator: OldDesignator=R5 NewDesignator=R10
+Change Component Designator: OldDesignator=R6 NewDesignator=R11
+Change Component Designator: OldDesignator=R7 NewDesignator=R12
+Change Component Designator: OldDesignator=R8 NewDesignator=R13
+Change Component Designator: OldDesignator=R9 NewDesignator=R14
+Change Component Designator: OldDesignator=R10 NewDesignator=R15
+Change Component Designator: OldDesignator=R11 NewDesignator=R16
+Change Component Designator: OldDesignator=R12 NewDesignator=R17
+Change Component Designator: OldDesignator=R13 NewDesignator=R18
+Change Component Designator: OldDesignator=R14 NewDesignator=R19
+Change Component Designator: OldDesignator=R15 NewDesignator=R20
+Change Component Designator: OldDesignator=R16 NewDesignator=R21
+Change Component Designator: OldDesignator=R17 NewDesignator=R22
+Change Component Designator: OldDesignator=R18 NewDesignator=R23
+Change Component Designator: OldDesignator=R19 NewDesignator=R24
+Change Component Designator: OldDesignator=R20 NewDesignator=R26
+Change Component Designator: OldDesignator=R21 NewDesignator=R25
+Change Component Designator: OldDesignator=R22 NewDesignator=R27
+Change Component Designator: OldDesignator=R23 NewDesignator=R28
+Change Component Designator: OldDesignator=R24 NewDesignator=R29
+Change Component Designator: OldDesignator=R25 NewDesignator=R30
+Change Component Designator: OldDesignator=R26 NewDesignator=R31
+Change Component Designator: OldDesignator=R27 NewDesignator=R32
+Change Component Designator: OldDesignator=R28 NewDesignator=R33
+Change Component Designator: OldDesignator=R29 NewDesignator=R34
+Change Component Designator: OldDesignator=R30 NewDesignator=R35
+Change Component Designator: OldDesignator=R31 NewDesignator=R36
+Change Component Designator: OldDesignator=R32 NewDesignator=R37
+Change Component Designator: OldDesignator=R33 NewDesignator=R38
+Change Component Designator: OldDesignator=R34 NewDesignator=R5
+Change Component Designator: OldDesignator=R35 NewDesignator=R39
+Change Component Designator: OldDesignator=R36 NewDesignator=R4
+Change Component Designator: OldDesignator=R37 NewDesignator=R40
+Change Component Designator: OldDesignator=R38 NewDesignator=R41
+Change Component Designator: OldDesignator=XP2 NewDesignator=XP3
+Change Component Designator: OldDesignator=XP3 NewDesignator=XP4
+Change Component Designator: OldDesignator=XP4 NewDesignator=XP5
+Change Component Designator: OldDesignator=XP5 NewDesignator=XP6
+Change Component Designator: OldDesignator=XP6 NewDesignator=XP7
+Added Component: Designator=BQ1(WatchQ)
+Added Component: Designator=R1(Res_0805)
+Added Component: Designator=R2(Res_0805)
+Added Component: Designator=R6(Res_0805)
+Added Component: Designator=XP2(CONN_2.54_6_2)
+Added Pin To Net: NetName=NetDD1_29 Pin=DD1-2
+Added Pin To Net: NetName=NetR36_1 Pin=DD1-32
+Added Pin To Net: NetName=NetR34_1 Pin=DD1-38
+Added Pin To Net: NetName=NetDD1_17 Pin=DD1-41
+Added Pin To Net: NetName=NetR36_1 Pin=R3-2
+Added Pin To Net: NetName=NetR34_1 Pin=R4-1
+Added Pin To Net: NetName=NetDD1_29 Pin=R5-1
+Added Pin To Net: NetName=NetDD1_17 Pin=R6-2
+Added Pin To Net: NetName=NetDD1_16 Pin=R37-2
+Added Pin To Net: NetName=NetDD1_15 Pin=R38-2
+Change Net Name : Old Net Name=NetBQ1_1 New Net Name=NetBQ2_1
+Change Net Name : Old Net Name=NetBQ1_2 New Net Name=NetBQ2_2
+Change Net Name : Old Net Name=NetDD1_17 New Net Name=P6
+Change Net Name : Old Net Name=NetDD1_29 New Net Name=P5
+Change Net Name : Old Net Name=NetR2_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR2_2 New Net Name=NetR7_2
+Change Net Name : Old Net Name=NetR3_2 New Net Name=NetR8_2
+Change Net Name : Old Net Name=NetR4_2 New Net Name=NetR9_2
+Change Net Name : Old Net Name=NetR5_2 New Net Name=NetR10_2
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR11_2
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR12_2
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetR13_2
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR10_1 New Net Name=NetR15_1
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetR15_2
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetR11_2 New Net Name=NetR16_2
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR14_2 New Net Name=NetR19_2
+Change Net Name : Old Net Name=NetR17_2 New Net Name=NetR22_2
+Change Net Name : Old Net Name=NetR18_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetR21_1 New Net Name=NetR25_1
+Change Net Name : Old Net Name=NetR22_1 New Net Name=NetR27_1
+Change Net Name : Old Net Name=NetR26_1 New Net Name=NetR31_1
+Change Net Name : Old Net Name=NetR27_1 New Net Name=NetR32_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR33_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR34_1
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR37_1
+Change Net Name : Old Net Name=NetR33_1 New Net Name=NetR38_1
+Change Net Name : Old Net Name=NetR34_1 New Net Name=P4
+Change Net Name : Old Net Name=NetR35_1 New Net Name=NetR39_1
+Change Net Name : Old Net Name=NetR36_1 New Net Name=P3
+Added Pin To Net: NetName=NetBQ1_1 Pin=BQ1-1
+Added Pin To Net: NetName=NetBQ1_1 Pin=DD1-4
+Added Net: Name=NetBQ1_1
+Added Pin To Net: NetName=NetBQ1_2 Pin=BQ1-2
+Added Pin To Net: NetName=NetBQ1_2 Pin=DD1-3
+Added Net: Name=NetBQ1_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=XP2-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=XP2-2
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=XP2-3
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=XP2-4
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=XP2-5
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=XP2-6
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=P1 Pin=DD1-17
+Added Pin To Net: NetName=P1 Pin=R1-2
+Added Net: Name=P1
+Added Pin To Net: NetName=P2 Pin=DD1-29
+Added Pin To Net: NetName=P2 Pin=R2-2
+Added Net: Name=P2
+Added Member To Class: ClassName=PANEL Member=Component BQ2 8M
+Added Member To Class: ClassName=PANEL Member=Component R1 100
+Added Member To Class: ClassName=PANEL Member=Component R9 1k
+Added Member To Class: ClassName=PANEL Member=Component R14 1k
+Added Member To Class: ClassName=PANEL Member=Component R39 10k
+Added Member To Class: ClassName=PANEL Member=Component R40 10k
+Added Member To Class: ClassName=PANEL Member=Component R41 10k
+Added Member To Class: ClassName=PANEL Member=Component XP1 DISP16_1.27
+Added Member To Class: ClassName=PANEL Member=Component XP7 PLD6

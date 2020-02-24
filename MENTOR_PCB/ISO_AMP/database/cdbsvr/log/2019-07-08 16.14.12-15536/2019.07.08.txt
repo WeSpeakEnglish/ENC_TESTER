@@ -1,0 +1,208 @@
+[2019.07.08 16:14:12] [0000m.00s.091ms] [0] WELCOME
+[2019.07.08 16:14:12] [0000m.00s.093ms] [1] iCDB Server ver.2.204, w6NMT3m1DsvvLxNhuorv0Q, build:11977057 created 2018-10-25 07:23:36, sources stamp:w6NMT3m1DsvvLxNhuorv0Q
+[2019.07.08 16:14:12] [0000m.00s.093ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2019.07.08 16:14:12] [0000m.00s.093ms] [1] Base flow version [VX.2.4]
+[2019.07.08 16:14:12] [0000m.00s.093ms] [1] Install Id [1845723], Flow Id [X-ENTP VX.2.4], Full Flow Name [Xpedition Enterprise X-ENTP VX.2.4], Exact Access Date [2018/08/01]
+[2019.07.08 16:14:12] [0000m.00s.093ms] [1] UPDATE Install Info, Install Id [2004503], UPDATE Name [Xpedition Enterprise X-ENTP VX.2.4 - Update 12]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] Machine [CZ09LT974R7H2]  IP [10.25.10.122,127.0.0.1,192.168.56.1]  User [H249897]  PID [15536]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] Operating system [Microsoft Enterprise Edition, 64-bit (build 9200)]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] Current working dir [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] PATH [C:\MentorGraphics\EEVX.2.4\SDD_HOME\common\win32\bin;C:\MentorGraphics\EEVX.2.4\SDD_HOME\common\win32\lib;C:\MentorGraphics\EEVX.2.4\MGC_HOME.ixn\bin;C:\MentorGraphics\EEVX.2.4\MGC_HOME.ixn\lib;C:\MentorGraphics\EEVX.1.2\SDD_HOME\wv\win32\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\1E\NomadBranch\;C:\Program Files (x86)\MATLAB\R2014b\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Pico Technology\PicoScope6\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\1E\NomadBranch\;C:\Program Files (x86)\MATLAB\R2014b\bin;C:\Users\H249897\AppData\Local\Microsoft\WindowsApps]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] SDD_HOME [C:\MentorGraphics\EEVX.2.4\SDD_HOME] on file system [NTFS]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] SDD_PLATFORM [win32]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] WDIR [C:\WDIR\EEVX.2.4;C:\MentorGraphics\EEVX.2.4\SDD_HOME\standard;]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [1] Local iCDB working dir [C:\WDIR\EEVX.2.4\iCDB] on file system [NTFS]
+[2019.07.08 16:14:12] [0000m.00s.108ms] [2] S: Loading config files
+[2019.07.08 16:14:12] [0000m.00s.111ms] [1] Config file [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database\cdbsvr\Server.cfg] not found
+[2019.07.08 16:14:12] [0000m.00s.112ms] [3] S: Config loaded
+[2019.07.08 16:14:12] [0000m.00s.121ms] [0] S: Project path [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database] on file system [NTFS]
+[2019.07.08 16:14:12] [0000m.00s.121ms] [0] S: Project file (.prj) path [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\ISO_AMP.prj] on file system [NTFS]
+[2019.07.08 16:14:12] [0000m.00s.122ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2019.07.08 16:14:12] [0000m.00s.122ms] [0] S: Single-user mode (auto)
+[2019.07.08 16:14:12] [0000m.00s.122ms] [0] S: Event polling mode autodetection
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] S: Started up automatically by iCDB Client: CZ09LT974R7H2:H249897:14648
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] S: Auto close mode
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] S: Database ID [3590-bf2a-521f-bcf2-4ce4-32d9-ce43-2d50-2c4c-f537-517e-2d3c]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: BEGIN dumping
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: Local -> global path prefix list
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [C:\Users\H249897\OneDrive - Honeywell\SHARE] -> [\\CZ09LT974R7H2\SHARE]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [C:\windows\system32\spool\drivers] -> [\\CZ09LT974R7H2\print$]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [C:\ProgramData\1E\NomadBranch] -> [\\CZ09LT974R7H2\NomadSHR$]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [I:\] -> [\\CZ09W1021.honeywell.com\Users\H249897\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [K:\] -> [\\CZ09W1021.honeywell.com\Departments\SPS\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [L:\] -> [\\CZ09W1021.honeywell.com\Departments\Common\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [P:\] -> [\\CZ09W1021.honeywell.com\Projects\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [T:\] -> [\\CZ09W1021.honeywell.com\TRANSFER\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [Z:\] -> [C:\WebServers]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: Global -> local path prefix list
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09W1021.honeywell.com\Departments\Common\] -> [L:\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09W1021.honeywell.com\Departments\SPS\] -> [K:\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09W1021.honeywell.com\Users\H249897\] -> [I:\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09W1021.honeywell.com\Projects\] -> [P:\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09W1021.honeywell.com\TRANSFER\] -> [T:\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09LT974R7H2\NomadSHR$] -> [C:\ProgramData\1E\NomadBranch]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09LT974R7H2\print$] -> [C:\windows\system32\spool\drivers]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [\\CZ09LT974R7H2\SHARE] -> [C:\Users\H249897\OneDrive - Honeywell\SHARE]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: [C:\WebServers] -> [Z:\]
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] PathTranslator: END dumping
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] S: START
+[2019.07.08 16:14:12] [0000m.00s.123ms] [0] S: Server startup lock file created
+[2019.07.08 16:14:12] [0000m.00s.124ms] [0] S: Listening for client connections on port [10001]
+[2019.07.08 16:14:12] [0000m.00s.127ms] [0] S: Server network ID [CZ09LT974R7H2:10.25.10.122,192.168.56.1,CZ09LT974R7H2,CZ09LT974R7H2.global.ds.honeywell.com:10001]
+[2019.07.08 16:14:12] [0000m.00s.127ms] [0] S: Server GUID [e015-51c0-c6b4-2ffb-4bf4-32d9-bf43-2d50-e49e-f537-517e-2d3c]
+[2019.07.08 16:14:12] [0000m.00s.127ms] [0] S: Project GUID [3590-bf2a-521f-bcf2-4ce4-32d9-ce43-2d50-2c4c-f537-517e-2d3c]
+[2019.07.08 16:14:12] [0000m.00s.128ms] [0] S: Wrote data to server address file
+[2019.07.08 16:14:12] [0000m.00s.128ms] [0] S: Server startup lock file removed
+[2019.07.08 16:14:12] [0000m.00s.129ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\ISO_AMP.prj]
+[2019.07.08 16:14:12] [0000m.00s.214ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2019.07.08 16:14:12] [0000m.00s.214ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\EEVX.2.4\SDD_HOME\iCDB\win32\bin]
+[2019.07.08 16:14:12] [0000m.00s.214ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\EEVX.2.4\SDD_HOME\common\win32\bin]
+[2019.07.08 16:14:12] [0000m.00s.217ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2019.07.08 16:14:12] [0000m.00s.217ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2019.07.08 16:14:12] [0000m.00s.217ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2019.07.08 16:14:12] [0000m.00s.217ms] [0] S: Local disc access time: 66 us
+[2019.07.08 16:14:12] [0000m.00s.217ms] [0] S: File server access time: 66 us
+[2019.07.08 16:14:12] [0000m.00s.218ms] [0] Single file [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database\icdb.dat] size [80768 (78.9 kB)]
+[2019.07.08 16:14:12] [0000m.00s.218ms] [1] Single file [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database\icdb.dat] opened in read-write mode
+[2019.07.08 16:14:12] [0000m.00s.219ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.08 16:14:12] [0000m.00s.219ms] [0] Database GUARD OK: [80768]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] Database GUARD OK: [80768]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] Database GUARD OK: [80768]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] Database GUARD OK: [80768]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] Database GUARD OK: [80768]
+[2019.07.08 16:14:12] [0000m.00s.220ms] [0] SingleFile: [9dc1-e73b-72d0-179f] SFI version check [1009] [1009]
+[2019.07.08 16:14:12] [0000m.00s.224ms] [0] SingleFile: [9dc1-e73b-72d0-179f] Database SFI header has been read in [3ms 502us]
+[2019.07.08 16:14:12] [0000m.00s.228ms] [0] iCDB Server PI: Server & plugin session [9]
+[2019.07.08 16:14:12] [0000m.00s.228ms] [0] iCDB Server PI: Opening database [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database]
+[2019.07.08 16:14:12] [0000m.00s.228ms] [0] iCDB Server PI: Database [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database] opened
+[2019.07.08 16:14:12] [0000m.00s.263ms] [0] iCDB Database: Checking existence of constraint definitions
+[2019.07.08 16:14:12] [0000m.00s.263ms] [0] iCDB Database: Checking constraint definitions version
+[2019.07.08 16:14:12] [0000m.00s.314ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.63;user.cns=3319-4232-7d45-014b-0d69-61a5-d696-1a50-4fb8-df21-4e0b-a9a9] up to date
+[2019.07.08 16:14:12] [0000m.00s.353ms] [0] iCDB Server PI: Initializing plugins
+[2019.07.08 16:14:12] [0000m.00s.354ms] [0] iCDB Server PI: Plugins initialized
+[2019.07.08 16:14:12] [0000m.00s.354ms] [0] S: iCDB database loaded
+[2019.07.08 16:14:12] [0000m.00s.356ms] [0] S: Starting threads
+[2019.07.08 16:14:12] [0000m.00s.357ms] [0] BT: Listening for broadcast messages on port [10000]
+[2019.07.08 16:14:12] [0000m.00s.358ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2019.07.08 16:14:12] [0000m.00s.364ms] [0] IT: Session [10] for host [CZ09LT974R7H2] user [H249897] client type[0] clsvrPluginID[0] with process ID [14648] created
+[2019.07.08 16:14:12] [0000m.00s.366ms] [1] SC[10]: Registered sub-client [DxD] with ID [1] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:12] [0000m.00s.367ms] [0] MWT: WindowProc: WM_NCCREATE
+[2019.07.08 16:14:12] [0000m.00s.376ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2019.07.08 16:14:12] [0000m.00s.376ms] [0] IT: iCDB Server Monitor session [1] for host [CZ09LT974R7H2] user [H249897] with process ID [11192] created
+[2019.07.08 16:14:12] [0000m.00s.424ms] [1] SC[10]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:12] [0000m.00s.448ms] [1] SC[10]: Registered sub-client [SymbolEditor] with ID [3] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:12] [0000m.00s.458ms] [1] CMT: There are [1] clients now: 10
+[2019.07.08 16:14:12] [0000m.00s.460ms] [1] SC[10]: Registered sub-client [SelectionHolder] with ID [4] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.918ms] [1] SC[10]: Registered sub-client [EEVM_EEVM_443340180] with ID [5] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.919ms] [1] SC[10]: UnRegistered sub-client [EEVM_EEVM_443340180] with ID [5] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.938ms] [1] SC[10]: Registered sub-client [EEVM_EEVM_443340180] with ID [6] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.938ms] [1] SC[10]: UnRegistered sub-client [EEVM_EEVM_443340180] with ID [6] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.952ms] [1] SC[10]: Registered sub-client [EEVM_EEVM_443339668] with ID [7] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.952ms] [1] SC[10]: UnRegistered sub-client [EEVM_EEVM_443339668] with ID [7] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.962ms] [1] SC[10]: Registered sub-client [EEVM_EEVM_443339668] with ID [8] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.10s.962ms] [1] SC[10]: UnRegistered sub-client [EEVM_EEVM_443339668] with ID [8] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.11s.019ms] [1] SC[10]: Registered sub-client [SystemDesignDll] with ID [9] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.11s.044ms] [1] SC[10]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:23] [0000m.11s.054ms] [1] SC[10]: Registered sub-client [SystemDesignDll] with ID [10] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.356ms] [1] SC[10]: Registered sub-client [DesignSearcher2] with ID [11] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.371ms] [1] SC[10]: Registered sub-client [Core::DesignListener-1526] with ID [12] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.383ms] [1] SC[10]: Registered sub-client [BlockCacheDxD:697781128] with ID [13] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.393ms] [1] SC[10]: Registered sub-client [Core::NetFlatData-23183] with ID [14] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.404ms] [1] SC[10]: Registered sub-client [HdlProject] with ID [15] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.420ms] [1] SC[10]: Registered sub-client [Navigator] with ID [16] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.444ms] [1] SC[10]: Registered sub-client [OutputWindow] with ID [17] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:26] [0000m.14s.456ms] [1] SC[10]: Registered sub-client [PlaceDevice] with ID [18] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:29] [0000m.17s.285ms] [1] SC[10]: Registered sub-client [FFSearch_RBHost] with ID [19] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:29] [0000m.17s.343ms] [1] SC[10]: Registered sub-client [LocalSymbolsDataProvider] with ID [20] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:33] [0000m.20s.973ms] [1] SC[10]: Registered sub-client [FFSSelListener] with ID [21] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:33] [0000m.20s.985ms] [1] SC[10]: Registered sub-client [SAE] with ID [22] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:33] [0000m.20s.998ms] [1] SC[10]: Registered sub-client [CCZAddin] with ID [23] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:33] [0000m.21s.009ms] [1] SC[10]: Registered sub-client [DxThumbnails] with ID [24] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:33] [0000m.21s.022ms] [1] SC[10]: Registered sub-client [MyParts] with ID [25] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:33] [0000m.21s.112ms] [1] SC[10]: Registered sub-client [PinsList] with ID [26] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.516ms] [1] SC[10]: Registered sub-client [toolboxes] with ID [27] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.645ms] [1] SC[10]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:950350608] with ID [28] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.825ms] [1] SC[10]: Registered sub-client [SheetConnectorsCacheDxD:1562595274] with ID [29] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.838ms] [1] SC[10]: Registered sub-client [NetsNamesCollectorDxD:1562595274] with ID [30] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.877ms] [1] SC[10]: Registered sub-client [PartReplaceUtils] with ID [31] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.889ms] [1] SC[10]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [32] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.21s.950ms] [1] SC[10]: Registered sub-client [xprob] with ID [33] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.22s.005ms] [1] SC[10]: Registered sub-client [StartServerClient6dc] with ID [34] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:34] [0000m.22s.006ms] [1] SC[10]: UnRegistered sub-client [StartServerClient6dc] with ID [34] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:36] [0000m.23s.778ms] [1] SC[10]: Registered sub-client [ObjectHolder_852317960] with ID [35] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:36] [0000m.23s.789ms] [1] SC[10]: Registered sub-client [BlockCacheDxD:871184992] with ID [36] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:36] [0000m.23s.799ms] [1] SC[10]: Registered sub-client [GlobalNetAliasUpdater_852316400] with ID [37] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:36] [0000m.23s.810ms] [1] SC[10]: Registered sub-client [IcdbNetProcessorSubClientDxD:909134736] with ID [38] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:14:58] [0000m.45s.572ms] [0] DFAMT: File server access time: 101 us
+[2019.07.08 16:15:45] [0001m.33s.280ms] [1] SC[10]: UnRegistered sub-client [DesignSearcher2] with ID [11] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:15:46] [0001m.33s.720ms] [1] SC[10]: UnRegistered sub-client [GlobalNetAliasUpdater_852316400] with ID [37] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:15:46] [0001m.33s.720ms] [1] SC[10]: UnRegistered sub-client [BlockCacheDxD:871184992] with ID [36] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:15:46] [0001m.33s.721ms] [1] SC[10]: UnRegistered sub-client [ObjectHolder_852317960] with ID [35] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:15:46] [0001m.33s.721ms] [1] SC[10]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:909134736] with ID [38] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:17:37] [0003m.25s.168ms] [0] IT: Session [11] for host [CZ09LT974R7H2] user [H249897] client type[0] clsvrPluginID[0] with process ID [11052] created
+[2019.07.08 16:17:37] [0003m.25s.169ms] [1] SC[11]: Registered sub-client [schcvt2dxlib] with ID [1] for session ID [11] host [CZ09LT974R7H2] user [H249897] process ID [11052]
+[2019.07.08 16:17:37] [0003m.25s.180ms] [1] SC[11]: UnRegistered sub-client [schcvt2dxlib] with ID [1] for session ID [11] host [CZ09LT974R7H2] user [H249897] process ID [11052]
+[2019.07.08 16:17:37] [0003m.25s.240ms] [1] CMT: There are [2] clients now: 10, 11
+[2019.07.08 16:17:37] [0003m.25s.240ms] [1] CMT: Removed client [11]
+[2019.07.08 16:17:37] [0003m.25s.240ms] [1] CMT: There are [1] clients now: 10
+[2019.07.08 16:17:38] [0003m.25s.879ms] [0] IT: Session [12] for host [CZ09LT974R7H2] user [H249897] client type[0] clsvrPluginID[0] with process ID [11052] created
+[2019.07.08 16:17:38] [0003m.25s.880ms] [1] SC[12]: Registered sub-client [schcvt2dxlib] with ID [1] for session ID [12] host [CZ09LT974R7H2] user [H249897] process ID [11052]
+[2019.07.08 16:17:38] [0003m.25s.893ms] [1] SC[12]: UnRegistered sub-client [schcvt2dxlib] with ID [1] for session ID [12] host [CZ09LT974R7H2] user [H249897] process ID [11052]
+[2019.07.08 16:17:38] [0003m.25s.942ms] [1] CMT: There are [2] clients now: 10, 12
+[2019.07.08 16:17:38] [0003m.25s.942ms] [1] CMT: Removed client [12]
+[2019.07.08 16:17:38] [0003m.25s.942ms] [1] CMT: There are [1] clients now: 10
+[2019.07.08 16:24:24] [0010m.11s.925ms] [1] SC[10]: UnRegistered sub-client [Navigator] with ID [16] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.11s.925ms] [1] SC[10]: UnRegistered sub-client [OutputWindow] with ID [17] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.11s.926ms] [1] SC[10]: UnRegistered sub-client [PlaceDevice] with ID [18] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.000ms] [1] SC[10]: UnRegistered sub-client [FFSSelListener] with ID [21] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.007ms] [1] SC[10]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [20] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.095ms] [1] SC[10]: UnRegistered sub-client [FFSearch_RBHost] with ID [19] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.097ms] [1] SC[10]: UnRegistered sub-client [SAE] with ID [22] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.098ms] [1] SC[10]: UnRegistered sub-client [CCZAddin] with ID [23] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.098ms] [1] SC[10]: UnRegistered sub-client [DxThumbnails] with ID [24] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.125ms] [1] SC[10]: UnRegistered sub-client [MyParts] with ID [25] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.125ms] [1] SC[10]: UnRegistered sub-client [PinsList] with ID [26] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.128ms] [1] SC[10]: UnRegistered sub-client [toolboxes] with ID [27] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.203ms] [1] SC[10]: UnRegistered sub-client [HdlProject] with ID [15] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.203ms] [1] SC[10]: UnRegistered sub-client [SystemDesignDll] with ID [10] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.422ms] [1] SC[10]: UnRegistered sub-client [PartReplaceUtils] with ID [31] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.422ms] [1] SC[10]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [32] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.422ms] [1] SC[10]: UnRegistered sub-client [Core::NetFlatData-23183] with ID [14] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.422ms] [1] SC[10]: UnRegistered sub-client [BlockCacheDxD:697781128] with ID [13] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:24] [0010m.12s.423ms] [1] SC[10]: UnRegistered sub-client [Core::DesignListener-1526] with ID [12] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.930ms] [1] SC[10]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:950350608] with ID [28] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.931ms] [1] SC[10]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.932ms] [1] SC[10]: UnRegistered sub-client [SheetConnectorsCacheDxD:1562595274] with ID [29] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.933ms] [1] SC[10]: UnRegistered sub-client [NetsNamesCollectorDxD:1562595274] with ID [30] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.936ms] [1] SC[10]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.937ms] [1] SC[10]: UnRegistered sub-client [DxD] with ID [1] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.958ms] [1] SC[10]: UnRegistered sub-client [xprob] with ID [33] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.12s.962ms] [1] SC[10]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [10] host [CZ09LT974R7H2] user [H249897] process ID [14648]
+[2019.07.08 16:24:25] [0010m.13s.012ms] [1] CMT: Removed client [10]
+[2019.07.08 16:24:25] [0010m.13s.013ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2019.07.08 16:24:25] [0010m.13s.233ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2019.07.08 16:24:27] [0010m.14s.517ms] [0] CMT: Starting server auto-close
+[2019.07.08 16:24:27] [0010m.14s.575ms] [0] S: Closing server
+[2019.07.08 16:24:27] [0010m.14s.639ms] [0] iCDB Server PI: Closing plugins
+[2019.07.08 16:24:27] [0010m.14s.639ms] [0] iCDB Server PI: Plugins closed
+[2019.07.08 16:24:27] [0010m.14s.639ms] [0] iCDB Server PI: Unloading database
+[2019.07.08 16:24:27] [0010m.14s.640ms] [0] iCDB Server PI: Saving storage
+[2019.07.08 16:24:27] [0010m.14s.640ms] [0] iCDB Server PI: Closing database
+[2019.07.08 16:24:27] [0010m.14s.662ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[2%] data[79%]
+[2019.07.08 16:24:27] [0010m.14s.662ms] [1] iCDB Server PI: Stats: Database file size [81152 (79.3 kB)]
+[2019.07.08 16:24:27] [0010m.14s.685ms] [0] iCDB Server PI: Database closed
+[2019.07.08 16:24:27] [0010m.14s.685ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [2549] ticks
+[2019.07.08 16:24:27] [0010m.14s.685ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [962] microseconds
+[2019.07.08 16:24:27] [0010m.14s.685ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [9]
+[2019.07.08 16:24:27] [0010m.14s.685ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [9351] commands per second
+[2019.07.08 16:24:27] [0010m.14s.685ms] [1] iCDB Server PI: Stats: Mem[55472128]
+[2019.07.08 16:24:27] [0010m.14s.685ms] [1] iCDB Server PI: Stats: MemPeak[58515456]
+[2019.07.08 16:24:27] [0010m.14s.688ms] [0] Single file [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\database\icdb.dat] closed with size [81152 (79.3 kB)]
+[2019.07.08 16:24:27] [0010m.14s.728ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2019.07.08 16:24:27] [0010m.14s.820ms] [0] MWT: Destroy the shutdown block reason.
+[2019.07.08 16:24:27] [0010m.14s.822ms] [0] MWT: STOP
+[2019.07.08 16:24:27] [0010m.14s.823ms] [0] S: STOP

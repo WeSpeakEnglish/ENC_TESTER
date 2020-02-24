@@ -1,0 +1,12 @@
+Change Component DesignItemId : Designator=VT6 Old DesignItemId=N-CHAN_TO-263 New DesignItemId=N-CHAN_TO-252
+Change Component DesignItemId : Designator=VT7 Old DesignItemId=N-CHAN_TO-263 New DesignItemId=N-CHAN_TO-252
+Change Component DesignItemId : Designator=VT1 Old DesignItemId=P-CHAN_TO-263 New DesignItemId=P-CHAN_TO-252
+Change Component DesignItemId : Designator=VT4 Old DesignItemId=P-CHAN_TO-263 New DesignItemId=P-CHAN_TO-252
+Change Component Footprint: Designator=VT1 Old Footprint=TO-263 New Footprint=TO-252
+Change Component Footprint: Designator=VT4 Old Footprint=TO-263 New Footprint=TO-252
+Change Component Footprint: Designator=VT6 Old Footprint=TO-263 New Footprint=TO-252
+Change Component Footprint: Designator=VT7 Old Footprint=TO-263 New Footprint=TO-252
+Change Component Comment : Designator=VT1 Old Comment=IRF4905L New Comment=NVD5117PL
+Change Component Comment : Designator=VT4 Old Comment=IRF4905L New Comment=NVD5117PL
+Change Component Comment : Designator=VT6 Old Comment=N-CHAN_TO-263 New Comment=2SK3919
+Change Component Comment : Designator=VT7 Old Comment=N-CHAN_TO-263 New Comment=2SK3919

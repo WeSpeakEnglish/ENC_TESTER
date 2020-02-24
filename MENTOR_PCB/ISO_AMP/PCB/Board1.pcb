@@ -1,0 +1,7 @@
+SECTION Integration
+KEY ProjectFile "..\ISO_AMP.prj"
+ENDSECTION
+SECTION DesignData
+KEY DesignName "Board1"
+KEY RootBlock "Schematic1"
+ENDSECTION

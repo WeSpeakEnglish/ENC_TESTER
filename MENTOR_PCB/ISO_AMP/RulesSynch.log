@@ -1,0 +1,367 @@
+
+_______________________________________________________________________________ Log session started at: Monday, July 08, 2019 16:13:17
+DBSynch.Rules - [16:13:17] INFO: Constraint migration started.  PCB rules are migrated to Constraint Manager.
+DBSynch.Rules - [16:13:17] INFO: Migrating Net Classes...
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR17_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR15_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR28_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR27_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P6' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_16' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC3_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_43' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_42' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_34' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ2_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ2_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC13_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR29_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_44' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_21' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'VCC' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'GND' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_22' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_14' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_25' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_26' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_27' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_28' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_33' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_45' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR22_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR24_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR23_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR21_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR8_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR7_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_30' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_31' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_46' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR7_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_15' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P5' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P4' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P3' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC7_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC8_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC9_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC5_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC6_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_10' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_11' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_12' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_13' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net '+12V' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR10_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net '5V' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR12_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETVT1_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETVT4_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ1_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR2_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR3_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR4_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR5_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR6_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] INFO: Migrating Component and Net Properties to rebuild electrical nets in Constraint Manager ...
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component DA2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component DA1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C15 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C14 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R13 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R9 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R11 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R7 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R28 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R27 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP6 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP7 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R29 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R20 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R18 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R16 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component DD1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C13 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component BQ2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R25 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R26 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R23 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R24 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R21 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R22 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R8 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C10 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C11 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C12 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R30 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R31 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R15 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R17 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP8 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C7 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C8 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C9 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component C6 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R10 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R12 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R14 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R19 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component SB2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component SB3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component SB1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component SB4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component SB5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT6 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component VT7 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XS1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component BQ1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component R6 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component XP2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component @0 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component @0_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component @0_3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component @0_4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find PCB component @0_5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] INFO: Extracting discrete packages from PCB : Packages found : 0
+DBSynch.Rules - [16:13:17] INFO: Deleting Discrete Component Pin Pairs in Constraint Manager : parts processed : 0. Pairs deleted : 0
+DBSynch.Rules - [16:13:17] INFO: Creating discrete component pin pairs: parts: 0 pin_pairs: 0
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR17_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR15_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR28_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR27_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P6' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_16' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC3_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_43' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_42' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_34' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ2_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ2_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC13_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR29_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_44' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_21' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'VCC' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'GND' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_22' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_14' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_25' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_26' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_27' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_28' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_33' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_45' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR22_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR24_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR23_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR21_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR8_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR7_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_30' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_31' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_46' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR7_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_15' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P5' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P4' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P3' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC7_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC8_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC9_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC5_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC6_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_10' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_11' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_12' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_13' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net '+12V' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR10_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net '5V' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR12_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETVT1_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETVT4_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ1_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR2_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR3_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR4_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR5_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR6_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] INFO: Migrating Electrical Net Rules...
+DBSynch.Rules - [16:13:17] WARNING: Constraint Class (All): will not migrate Stub Length of 0 th. Value of 300 th will be used instead.
+DBSynch.Rules - [16:13:17] INFO: Migrating Net Rules...
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR17_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR15_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR28_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR27_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P6' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_16' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC3_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_43' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_42' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_34' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ2_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ2_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC13_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR29_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_44' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_21' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'VCC' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'GND' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_22' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_14' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_25' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_26' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_27' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_28' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_33' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_45' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR22_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR24_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR23_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR21_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR8_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR7_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_30' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_31' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_46' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR7_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_15' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P5' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P4' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P3' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC7_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC8_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC9_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC5_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETC6_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_10' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_11' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_12' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETDD1_13' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net '+12V' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR10_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net '5V' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR12_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETVT1_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETVT4_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETBQ1_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR1_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR2_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR3_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR4_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR5_2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'NETR6_1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P1' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] ERROR: Can't process PCB net 'P2' - can't find a matching net in schematic.
+DBSynch.Rules - [16:13:17] INFO: Migrating Virtual Pins...
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR17_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR15_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR28_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR27_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net P6 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_16 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC3_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_43 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_42 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_34 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETBQ2_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETBQ2_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC13_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR29_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_44 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_21 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net VCC in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net GND in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_22 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_14 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_25 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_26 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_27 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_28 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_33 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_45 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR22_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR24_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR23_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR21_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR8_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR7_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_30 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_31 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_46 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR7_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_15 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net P5 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net P4 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net P3 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC7_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC8_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC9_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC5_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETC6_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_10 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_11 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_12 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETDD1_13 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net +12V in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR10_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net 5V in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR12_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETVT1_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETVT4_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETBQ1_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETBQ1_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR1_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR2_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR3_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR4_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR5_2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net NETR6_1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net P1 in Constraint Manager.
+DBSynch.Rules - [16:13:17] ERROR: Can't find a match for PCB net P2 in Constraint Manager.
+DBSynch.Rules - [16:13:17] INFO: Migrating Pin Pair Rules...
+DBSynch.Rules - [16:13:17] INFO: Migrating Via Biasing Rules...
+DBSynch.Rules - [16:13:17] INFO: Migrating Clearance Rules...
+DBSynch.Rules - [16:13:17] ERROR: Unable to add constraint SMDPAD_TO_PLANE on object (Master)/(Default Rule) . Reason: Cannot get constraint definition 'SMDPAD_TO_PLANE'. Constraint definition is unknown.
+DBSynch.Rules - [16:13:17] ERROR: Unable to add constraint BOARDEDGE_TO_TRACE on object (Master)/(Default Rule) . Reason: Cannot get constraint definition 'BOARDEDGE_TO_TRACE'. Constraint definition is unknown.
+DBSynch.Rules - [16:13:17] ERROR: Unable to add constraint BOARDEDGE_TO_PLANE on object (Master)/(Default Rule) . Reason: Cannot get constraint definition 'BOARDEDGE_TO_PLANE'. Constraint definition is unknown.
+DBSynch.Rules - [16:13:17] ERROR: Unable to add constraint BOARDEDGE_TO_PAD on object (Master)/(Default Rule) . Reason: Cannot get constraint definition 'BOARDEDGE_TO_PAD'. Constraint definition is unknown.
+DBSynch.Rules - [16:13:17] ERROR: Unable to add constraint BOARDEDGE_TO_VIA on object (Master)/(Default Rule) . Reason: Cannot get constraint definition 'BOARDEDGE_TO_VIA'. Constraint definition is unknown.
+DBSynch.Rules - [16:13:17] ERROR: Unable to add constraint BOARDEDGE_TO_SMDPAD on object (Master)/(Default Rule) . Reason: Cannot get constraint definition 'BOARDEDGE_TO_SMDPAD'. Constraint definition is unknown.
+DBSynch.Rules - [16:13:17] INFO: Migrating Differential Pair Rules...
+DBSynch.Rules - [16:13:17] INFO: Migrating Power Nets...
+DBSynch.Rules - [16:13:17] WARNING: Constraint migration completed with errors.
+
+                                                                         Total: Informational notifications - 14; Warnings - 2; Errors - 347

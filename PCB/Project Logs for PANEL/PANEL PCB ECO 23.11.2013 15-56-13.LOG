@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetDD1_33 Pin=R21-1
+Removed Member From Class: ClassName=PANEL Member=R21
+Added Pin To Net: NetName=NetDD1_33 Pin=R16-2
+Added Pin To Net: NetName=NetDD1_33 Pin=VT2-1

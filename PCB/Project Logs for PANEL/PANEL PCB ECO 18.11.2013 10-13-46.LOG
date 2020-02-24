@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=XP1 Old DesignItemId=DISP16_1.27 New DesignItemId=DISP16_2.54
+Change Component Footprint: Designator=XP1 Old Footprint=DISP16_1.27 New Footprint=DISP16_2.54
+Change Component Comment : Designator=XP1 Old Comment=DISP16_1.27 New Comment=DISP16_2.54
+Added Pin To Net: NetName=GND Pin=XP1-16
