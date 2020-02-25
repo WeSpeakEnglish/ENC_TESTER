@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=NetBQ1_2 Pin=DD1-3
-Removed Pin From Net: NetName=NetBQ1_1 Pin=DD1-4
-Added Pin To Net: NetName=NetBQ1_1 Pin=DD1-3
-Added Pin To Net: NetName=NetBQ1_2 Pin=DD1-4

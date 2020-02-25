@@ -1,3 +1,0 @@
-[2019-07-08 16.10.13] -------------------- CREATE --------------------
-[2019-07-08 16.10.13] Creating Project Backup infrastructure for project [C:\PROJECTS\BAROM\MENTOR_PCB\ISO_AMP\ISO_AMP.prj].
-[2019-07-08 16.10.18] Successfully created [AutoSave] backup [2019-07-08 16.10.17 - auto.zip] requested by [CZ09LT974R7H2:H249897].

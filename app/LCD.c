@@ -86,16 +86,46 @@ return;
 }
 
 void DisplaySteps(void){
- lcd_set_xy(5,2);
- DispString[0] = TotalSteps/10000 + 0x30;
- DispString[1] = (TotalSteps%10000)/1000 + 0x30;
- DispString[2] = (TotalSteps%1000)/100 + 0x30;
- DispString[3] = (TotalSteps%100)/10 + 0x30;
- DispString[4] = TotalSteps%10 + 0x30;
- DispString[5] = 0x00; 
+ lcd_set_xy(0,0);
+ lcd_out("Stp+:");
+ lcd_set_xy(0,1);
+ lcd_out("Stp-:");
+ lcd_set_xy(5,0);
+ UInt32ToStr(DispString, StepsUp);
+ lcd_out(DispString);
+ lcd_set_xy(5,1);
+ UInt32ToStr(DispString, StepsDown);
  lcd_out(DispString);
 return;
 };
+
+void DisplayRevolutions(void){
+ lcd_set_xy(0,0);
+ lcd_out("Rev+:");
+ lcd_set_xy(0,1);
+ lcd_out("Rev-:");
+ lcd_set_xy(5,0);
+ UInt32ToStr(DispString, RevUp);
+ lcd_out(DispString);
+ lcd_set_xy(5,1);
+ UInt32ToStr(DispString, RevDown);
+ lcd_out(DispString);
+return;
+};
+
+void UInt32ToStr(unsigned char * DispString, int32_t Numb){
+ DispString[0] = (Numb%10000000000)/1000000000 + 0x30;
+ DispString[1] = (Numb%1000000000)/100000000 + 0x30;
+ DispString[2] = (Numb%100000000)/10000000 + 0x30;
+ DispString[3] = (Numb%10000000)/1000000 + 0x30;
+ DispString[4] = (Numb%1000000)/100000 + 0x30;
+ DispString[5] = (Numb%100000)/10000 + 0x30;
+ DispString[6] = (Numb%10000)/1000 + 0x30;
+ DispString[7] = (Numb%1000)/100 + 0x30;
+ DispString[8] = (Numb%100)/10 + 0x30;
+ DispString[9] = Numb%10 + 0x30;
+ DispString[11] = 0x00; 
+}
 
 void DisplayHumidity(float * Humidity){
 unsigned char* pointerDisp = DispString;

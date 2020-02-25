@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armstlink2.dll" 
 
-"C:\PROJECTS\STM32F1xx\ENCODER_TEST\Flash Debug\Exe\LCD_demo.out" 
+"C:\PROJECTS\STM32F1xx\ENC_TESTER\Flash Debug\Exe\LCD_demo.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
 

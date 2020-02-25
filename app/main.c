@@ -42,15 +42,11 @@ int main(void)
   
   
   ConfigureLCD();
-     lcd_set_xy(0,0);
-     lcd_send(0,DATA); // temp sumbol to LCD
-     lcd_out("      ");
-     lcd_send(4,DATA); // press sumbol to LCD
-     lcd_set_xy(0,1);
+
      
-     lcd_send(0,DATA); // temp sumbol to LCD 
-     lcd_out("      ");
-     lcd_send(6,DATA); // hum sumbol to LCD
+//     lcd_send(0,DATA); // temp sumbol to LCD 
+ //    lcd_out("      ");
+//     lcd_send(6,DATA); // hum sumbol to LCD
 
      while(1){
        CNT_Tim = TIM3->CNT;

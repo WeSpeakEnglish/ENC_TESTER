@@ -75,6 +75,7 @@ TIM_Cmd(TIM3, DISABLE);
 void TIM2_IRQHandler(void)
 {
   static long long InsideCounter = 0;
+  static uint8_t screen = 0;
   if (TIM2->SR & TIM_SR_UIF){
     TIM2->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
   }
@@ -88,10 +89,18 @@ void TIM2_IRQHandler(void)
   if(InsideCounter%12800 == 0){
     Direction++;
     Direction %=2;
-    if(Direction)GPIOA->BSRR = GPIO_BSRR_BR15;
-    else GPIOA->BSRR = GPIO_BSRR_BS15;
-    
-    F1_push(DisplaySteps);
+    if(Direction){
+      GPIOA->BSRR = GPIO_BSRR_BR15;
+      F1_push(RevDecrease);
+    }
+    else{ 
+      GPIOA->BSRR = GPIO_BSRR_BS15;
+      F1_push(RevIncrease);
+    }
+    screen++;
+    screen %=2;
+    if(screen) F1_push(DisplaySteps);
+    else F1_push(DisplayRevolutions);
   }
   
   InsideCounter++;

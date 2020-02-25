@@ -3,17 +3,5 @@
     <project>
         <path>$WS_DIR$\TEST_ENC.ewp</path>
     </project>
-    <batchBuild>
-        <batchDefinition>
-            <name>All</name>
-            <member>
-                <project>LCD_demo</project>
-                <configuration>Flash Debug</configuration>
-            </member>
-            <member>
-                <project>LCD_demo</project>
-                <configuration>RAM Debug</configuration>
-            </member>
-        </batchDefinition>
-    </batchBuild>
+    <batchBuild />
 </workspace>
