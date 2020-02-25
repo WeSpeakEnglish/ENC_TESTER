@@ -3,6 +3,7 @@
 #include "ioconfig.h"
 #include "LCD.h"
 #include "nortos.h"
+#include "enc.h"
 
 
 int main(void)
@@ -18,6 +19,7 @@ int main(void)
   PortCConf();
   PortBConf();
   ButtonConf(); // button enable/disable signal
+  MOTOR_DISABLE = 0;
   TIM2_init();  //
   TIM3_init();
   Init_UART1(); 

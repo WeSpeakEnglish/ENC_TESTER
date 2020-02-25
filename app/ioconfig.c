@@ -33,6 +33,9 @@ void PortCConf(void){
   return;
 }
 void PortBConf(void){
+  GPIO_InitTypeDef gpio_cfg;
+  GPIO_StructInit(&gpio_cfg);
+  
   RCC->APB2ENR |= RCC_APB2ENR_IOPBEN;            //clock to the GPIOB
   
   //PB0 As Input 
@@ -90,6 +93,10 @@ void PortBConf(void){
   GPIOB->CRH &=~(GPIO_CRH_CNF15_0);
   GPIOB->CRH |=(GPIO_CRH_MODE15_1);
   
+ //------------ PB5 --- STEPMOTOR DRIVER ENABLE PIN 
+  gpio_cfg.GPIO_Mode =  GPIO_Mode_Out_PP;
+  gpio_cfg.GPIO_Pin = GPIO_Pin_5;
+  GPIO_Init(GPIOB, &gpio_cfg);
   return;
 }
 void PortAConf(void){

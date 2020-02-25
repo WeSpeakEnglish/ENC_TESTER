@@ -8,6 +8,7 @@
 #define PORTB_READ_2            (*((volatile unsigned long *) 0x42218108))
 #define PORTB_READ_3            (*((volatile unsigned long *) 0x4221810c))
 
+
 #define STEPS_MOTOR_REVOLUTION  12800
 
 static u8 Polar1 = 0;
@@ -102,13 +103,23 @@ void TIM2_IRQHandler(void)
       Direction %=2;
       if(Direction){
         GPIOA->BSRR = GPIO_BSRR_BR15;
-        if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1)StopFlag++;
-        else F1_push(RevDecrease);
+        if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1){
+          StopFlag++;
+          MOTOR_DISABLE = 1;
+        }
+        else {
+          F1_push(RevDecrease);
+        }
       }
       else{ 
         GPIOA->BSRR = GPIO_BSRR_BS15;
-        if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1)StopFlag++;
-        else F1_push(RevIncrease);
+        if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1){
+          StopFlag++;
+          MOTOR_DISABLE = 1;
+        }
+        else{
+          F1_push(RevIncrease);
+        }
       }
 
     }

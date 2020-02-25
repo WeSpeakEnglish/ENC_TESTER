@@ -3,6 +3,7 @@
 #include <stdint.h>
 
 #define REVOLUTION_TEST_COUNT_STOP 10
+#define MOTOR_DISABLE           (*((volatile unsigned long *) 0x42218194))
 
 extern int EncVar;
 extern uint32_t TotalSteps;
