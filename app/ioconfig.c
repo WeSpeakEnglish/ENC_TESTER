@@ -5,13 +5,6 @@
 #include "enc.h"
 #include "nortos.h"
 
-#define PORTB_READ_2 (*((volatile unsigned long *) 0x42218108))
-#define PORTB_READ_3 (*((volatile unsigned long *) 0x4221810c))
-
-static uint8_t InterruptEX = 0;
-static u8 Polar1 = 0;
-static u8 Polar2 = 0;
-
 void ButtonConf(void){
   RCC_APB2PeriphClockCmd(RCC_APB2ENR_AFIOEN , ENABLE);
   AFIO->EXTICR[0]|=AFIO_EXTICR1_EXTI0_PB;
@@ -32,80 +25,6 @@ void ButtonConf(void){
   NVIC_EnableIRQ (EXTI4_IRQn);
   return;
 } 
-
-void EXTI0_IRQHandler(void)
-{
-  static u8 InsideCounter = 0;
-  
-  delay_1s(); //delay button condition stable 
-  EXTI->PR|=0x01; // clear interrupt
-  InsideCounter++;
-}
-
-void EXTI1_IRQHandler(void)
-{
-  static u8 InsideCounter = 0;
-  delay_1s(); //delay button condition stable 
-  EXTI->PR|=0x02; // clear interrupt
-  InsideCounter++;
-}
-
-void EXTI2_IRQHandler(void)
-{
-  static u8 InsideCounter = 0;
-  InterruptEX = 2;
- 
-  EXTI->PR|=0x04; // clear interrupt
-  
-  Polar1 = PORTB_READ_2;
-  Polar2 = PORTB_READ_3;
-  if (Polar1 == 0){
-    if( Polar2 == 0){
-      if(dirDet == -1)F1_push(EncDecrease);
-      else F1_push(EncIncrease);
-    }
-    dirDet = 1;
-  }
-  else{
-  if(dirDet == -1)  F1_push(EncDecrease);
-  else  F1_push(EncIncrease);
-  }
-  InsideCounter++;
-}
-
-void EXTI3_IRQHandler(void)
-{
-  static u8 InsideCounter = 0;
-  
-  InterruptEX = 3;
-  //  delay_1s(); //delay button condition stable 
-  EXTI->PR|=0x08; // clear interrupt
-  
-  Polar1 = PORTB_READ_2;
-  Polar2 = PORTB_READ_3;
-  
-  if(Polar2 == 0){
-    if(Polar1 == 1)
-      dirDet = -1;//
-    else
-      dirDet = 1;
-  }
-    else{
-     if(Polar1 == 1)
-       dirDet = 1;
-     else
-       dirDet = -1;
-  }
-  InsideCounter++;
-}
-
-void EXTI4_IRQHandler(void)
-{
-  static u8 InsideCounter = 0;
-  delay_1s(); //delay button condition stable 
-  EXTI->PR|=0x10; // clear interrupt
-  InsideCounter++;
-}
 
 void PortCConf(void){
   RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;            //clock to the GPIOC

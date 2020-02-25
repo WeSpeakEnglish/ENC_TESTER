@@ -4,15 +4,7 @@
 #include "uart.h"
 #include "enc.h"
 #include "nortos.h"
-//////////////////////////////////////////////
-u16 Hum;
-u16 Temp;
-u8 Crc;
 
-float CalculatedHum;
-float CalculatedTemp;
-enum{TEMP=1,HUM};
-extern uint8_t Direction;
 //////////////////////////////////////////////////
 void TIM1_init(void){
 
@@ -72,47 +64,4 @@ TIM_Cmd(TIM3, DISABLE);
   NVIC_EnableIRQ(TIM3_IRQn);
 }
 
-void TIM2_IRQHandler(void)
-{
-  static long long InsideCounter = 0;
-  static uint8_t screen = 0;
-  if (TIM2->SR & TIM_SR_UIF){
-    TIM2->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
-  }
-  
-  if(InsideCounter%2){
-    GPIOA->BSRR = GPIO_BSRR_BS8;
-  }
-  else {
-    GPIOA->BSRR = GPIO_BSRR_BR8;
-  }
-  if(InsideCounter%12800 == 0){
-    Direction++;
-    Direction %=2;
-    if(Direction){
-      GPIOA->BSRR = GPIO_BSRR_BR15;
-      F1_push(RevDecrease);
-    }
-    else{ 
-      GPIOA->BSRR = GPIO_BSRR_BS15;
-      F1_push(RevIncrease);
-    }
-    screen++;
-    screen %=2;
-    if(screen) F1_push(DisplaySteps);
-    else F1_push(DisplayRevolutions);
-  }
-  
-  InsideCounter++;
-}
 
-void TIM3_IRQHandler(void)
-{
-  static long long InsideCounter = 0;
-  if (TIM3->SR & TIM_SR_UIF){
-    TIM3->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
-  }
-  
-  
-  InsideCounter++;
-}

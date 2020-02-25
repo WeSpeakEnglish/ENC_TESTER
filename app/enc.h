@@ -2,6 +2,8 @@
 #define __ENC_H
 #include <stdint.h>
 
+#define REVOLUTION_TEST_COUNT_STOP 10
+
 extern int EncVar;
 extern uint32_t TotalSteps;
 extern volatile int dirDet;
@@ -13,4 +15,7 @@ void EncIncrease(void);
 void EncDecrease(void);
 void RevIncrease(void);
 void RevDecrease(void);
+
+
+
 #endif

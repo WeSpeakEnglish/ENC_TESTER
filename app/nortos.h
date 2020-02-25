@@ -1,7 +1,7 @@
 // NORTOS: The simplisity matter! By Aleksei Tertychnyi, 2015, WTFPL licenced
 #ifndef _NORTOS_H
 #define _NORTOS_H
-#define Q_SIZE_FAST 16
+#define Q_SIZE_FAST 32
 
 void F1_QueueIni(void); // initialization of Queue
 int F1_push(void (*pointerQ)(void) ); // push element from the queue

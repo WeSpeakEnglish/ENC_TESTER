@@ -1,6 +1,5 @@
 #include "hd44780_driver.h"
 #include "LCD.h"
-#include "calculations.h"
 #include "enc.h"
 
 unsigned char Char_0[] =  {4,6,4,6,4,14,14,4};     // t

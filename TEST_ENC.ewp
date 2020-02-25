@@ -1149,12 +1149,6 @@
         </file>
     </group>
     <file>
-        <name>$PROJ_DIR$\app\calculations.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\app\dac.c</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\app\delays.c</name>
     </file>
     <file>
@@ -1164,7 +1158,7 @@
         <name>$PROJ_DIR$\app\hd44780_driver.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\app\i2c.c</name>
+        <name>$PROJ_DIR$\app\interrupts.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\app\ioconfig.c</name>
