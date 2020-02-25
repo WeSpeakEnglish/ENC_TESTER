@@ -4,7 +4,7 @@
 
 void TIM2_IRQHandler(void);
 void TIM2_init(void);
-void TIM3_init(void);
+
 
 #endif
 

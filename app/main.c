@@ -21,7 +21,6 @@ int main(void)
   ButtonConf(); // button enable/disable signal
   MOTOR_DISABLE = 0;
   TIM2_init();  //
-  TIM3_init();
   Init_UART1(); 
   F1_QueueIni();
   ConfigureLCD();

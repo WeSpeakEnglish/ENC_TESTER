@@ -123,7 +123,7 @@ void UInt32ToStr(unsigned char * DispString, int32_t Numb){
  DispString[7] = (Numb%1000)/100 + 0x30;
  DispString[8] = (Numb%100)/10 + 0x30;
  DispString[9] = Numb%10 + 0x30;
- DispString[11] = 0x00; 
+ DispString[10] = 0x00; 
 }
 
 void DisplayHumidity(float * Humidity){
