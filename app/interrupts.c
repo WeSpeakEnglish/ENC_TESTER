@@ -83,14 +83,21 @@ void EXTI4_IRQHandler(void)
 
 void TIM2_IRQHandler(void)
 {
-  static long long InsideCounter = 0;
+  static long long InsideCounter = 1;
   static uint8_t screen = 0;
   static int StopFlag = 0;
+  static int DeadTime = 0;
+  
   if (TIM2->SR & TIM_SR_UIF){
     TIM2->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
   }
   
-  if (!StopFlag){
+
+  
+  if (!StopFlag && !DeadTime){
+    
+     MOTOR_DISABLE = 0;
+    
     if(InsideCounter%2){
       GPIOA->BSRR = GPIO_BSRR_BS8;
     }
@@ -98,14 +105,15 @@ void TIM2_IRQHandler(void)
       GPIOA->BSRR = GPIO_BSRR_BR8;
     }
     
-    if(InsideCounter%STEPS_MOTOR_REVOLUTION == 0){
+    if(InsideCounter %(STEPS_MOTOR_REVOLUTION) == 0){
       Direction++;
       Direction %=2;
+      DeadTime = 10000;
+      
       if(Direction){
         GPIOA->BSRR = GPIO_BSRR_BR15;
         if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1){
           StopFlag++;
-          MOTOR_DISABLE = 1;
         }
         else {
           F1_push(RevDecrease);
@@ -115,7 +123,6 @@ void TIM2_IRQHandler(void)
         GPIOA->BSRR = GPIO_BSRR_BS15;
         if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1){
           StopFlag++;
-          MOTOR_DISABLE = 1;
         }
         else{
           F1_push(RevIncrease);
@@ -124,6 +131,12 @@ void TIM2_IRQHandler(void)
 
     }
   }
+  else{
+    MOTOR_DISABLE = 1;
+    DeadTime--;
+  }
+
+    
   if(InsideCounter%STEPS_MOTOR_REVOLUTION == 1){
       screen++;
       screen %=6;

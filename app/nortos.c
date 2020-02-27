@@ -1,7 +1,7 @@
 #include "nortos.h"
 
 volatile int F1_last; // number of last element of fast-speed queue
-volatile int DeepIndicator; // to control deepness - how many elements needed in the queue
+volatile int DeepIndicatorF1; // to control deepness - how many elements needed in the queue
 
 int F1_first; // number of first element of fast-speed queue
 
@@ -12,14 +12,15 @@ void (*F1_Queue[Q_SIZE_FAST])();
 void F1_QueueIni(void){ // initialization of Queue
   F1_last = 0;
   F1_first = 0;
-  DeepIndicator = 0;
+  DeepIndicatorF1 = 0;
 }
 
 int F1_push(void (*pointerQ)(void) ){ // push element from the queue
   if ((F1_last+1)%Q_SIZE_FAST == F1_first)return 1;
+  DeepIndicatorF1++;
   F1_Queue[F1_last++] = pointerQ;
   F1_last%=Q_SIZE_FAST;
-  DeepIndicator++;
+  
   return 0;
 }
 
@@ -28,7 +29,7 @@ void (*F1_pull(void))(void){ // pull element from the queue
   if (F1_last == F1_first)return SimpleF1;
   pullVar = F1_Queue[F1_first++];
   F1_first%=Q_SIZE_FAST;
-  DeepIndicator--;
+  DeepIndicatorF1--;
   return pullVar;
 }
 

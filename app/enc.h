@@ -2,7 +2,7 @@
 #define __ENC_H
 #include <stdint.h>
 
-#define REVOLUTION_TEST_COUNT_STOP 10
+#define REVOLUTION_TEST_COUNT_STOP 10000
 #define MOTOR_DISABLE           (*((volatile unsigned long *) 0x42218194))
 
 extern int EncVar;
