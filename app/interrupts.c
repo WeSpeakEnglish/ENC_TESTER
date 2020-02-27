@@ -4,16 +4,13 @@
 #include "stm32f10x_it.h"
 #include "enc.h"
 #include "nortos.h"
+#include "stepmotor.h"
 
 #define PORTB_READ_2            (*((volatile unsigned long *) 0x42218108))
 #define PORTB_READ_3            (*((volatile unsigned long *) 0x4221810c))
 
-
-#define STEPS_MOTOR_REVOLUTION  12800
-
 static u8 Polar1 = 0;
 static u8 Polar2 = 0;
-static uint8_t Direction = 0;
 
 void EXTI0_IRQHandler(void)
 {
@@ -83,75 +80,84 @@ void EXTI4_IRQHandler(void)
 
 void TIM2_IRQHandler(void)
 {
-  static long long InsideCounter = 1;
-  static uint8_t screen = 0;
-  static int StopFlag = 0;
-  static int DeadTime = 0;
+  static long long InsideCounter = 0;
   
   if (TIM2->SR & TIM_SR_UIF){
     TIM2->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
   }
   
-
+  StepMotorRoutine(&InsideCounter);
+   
   
-  if (!StopFlag && !DeadTime){
-    
-     MOTOR_DISABLE = 0;
-    
-    if(InsideCounter%2){
-      GPIOA->BSRR = GPIO_BSRR_BS8;
-    }
-    else {
-      GPIOA->BSRR = GPIO_BSRR_BR8;
-    }
-    
-    if(InsideCounter %(STEPS_MOTOR_REVOLUTION) == 0){
-      Direction++;
-      Direction %=2;
-      DeadTime = 10000;
-      
-      if(Direction){
-        GPIOA->BSRR = GPIO_BSRR_BR15;
-        if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1){
-          StopFlag++;
-        }
-        else {
-          F1_push(RevDecrease);
-        }
-      }
-      else{ 
-        GPIOA->BSRR = GPIO_BSRR_BS15;
-        if (RevUp+RevDown > REVOLUTION_TEST_COUNT_STOP-1){
-          StopFlag++;
-        }
-        else{
-          F1_push(RevIncrease);
-        }
-      }
-
-    }
-  }
-  else{
-    MOTOR_DISABLE = 1;
-    DeadTime--;
-  }
-
-    
-  if(InsideCounter%STEPS_MOTOR_REVOLUTION == 1){
-      screen++;
-      screen %=6;
-      if(screen < 3) F1_push(DisplaySteps);
-      else F1_push(DisplayRevolutions);
-  }
   InsideCounter++;
 }
 
 void TIM3_IRQHandler(void)
 {
-  static long long InsideCounter = 0;
+  static uint32_t State = 0;
+  
   if (TIM3->SR & TIM_SR_UIF){
     TIM3->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
   }
   
-  InsideCounter++;
+  if(milliseconds% 100 == 0){ 
+   switch (State%24){
+    case 0: 
+      SetParams(360);
+      F1_push(StartStepping);
+      break;
+    case 1:
+      break;
+    case 2: 
+      break;
+    case 3:
+      break;      
+    case 4: 
+      break;
+    case 5:
+      break; 
+    case 6: 
+      break;
+    case 7:
+      break; 
+    case 8: 
+      break;
+    case 9:
+      break; 
+    case 10: 
+      break;
+    case 11:
+      break; 
+    case 12:
+      SetParams(-360);
+      F1_push(StartStepping);
+      break; 
+    case 13:
+      break;
+    case 14: 
+      break;
+    case 15:
+      break;      
+    case 16: 
+      break;
+    case 17:
+      break; 
+    case 18: 
+      break;
+    case 19:
+      break; 
+    case 20: 
+      break;
+    case 21:
+      break; 
+    case 22: 
+      break;
+    case 23:
+      break; 
+    }
+   State++;
+  }
+ 
+  
+  milliseconds++;
 }

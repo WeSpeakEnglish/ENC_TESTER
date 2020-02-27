@@ -3,6 +3,8 @@
 #define _NORTOS_H
 #define Q_SIZE_FAST 32
 
+extern volatile long long milliseconds;
+
 void F1_QueueIni(void); // initialization of Queue
 int F1_push(void (*pointerQ)(void) ); // push element from the queue
 void (*F1_pull(void))(void); // pull element from the queue

@@ -1306,6 +1306,9 @@
         <name>$PROJ_DIR$\app\nortos.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\app\stepmotor.c</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\app\timers.c</name>
     </file>
     <file>

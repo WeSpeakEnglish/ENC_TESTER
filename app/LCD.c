@@ -1,6 +1,7 @@
 #include "hd44780_driver.h"
 #include "LCD.h"
 #include "enc.h"
+#include "stepmotor.h"
 
 unsigned char Char_0[] =  {4,6,4,6,4,14,14,4};     // t
 unsigned char Char_1[] =  {24,24,0,28,16,16,28,0}; // degree C

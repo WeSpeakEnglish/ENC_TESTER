@@ -2,6 +2,7 @@
 
 volatile int F1_last; // number of last element of fast-speed queue
 volatile int DeepIndicatorF1; // to control deepness - how many elements needed in the queue
+volatile long long milliseconds = 0;
 
 int F1_first; // number of first element of fast-speed queue
 
