@@ -36,6 +36,11 @@ void EXTI2_IRQHandler(void)
   
   Polar1 = PORTB_READ_2;
   Polar2 = PORTB_READ_3;
+  if (Polar1 == Polar2) 
+    F1_push(EncDecrease);
+  else 
+    F1_push(EncIncrease);
+/*
   if (Polar1 == 0){
     if( Polar2 == 0){
       if(dirDet == -1)  F1_push(EncDecrease);
@@ -47,6 +52,7 @@ void EXTI2_IRQHandler(void)
     if(dirDet == -1)      F1_push(EncDecrease);
     else                  F1_push(EncIncrease);
   }
+*/
   InsideCounter++;
 }
 
@@ -91,6 +97,7 @@ void TIM2_IRQHandler(void)
   
   InsideCounter++;
 }
+#define DispShowDelay 32
 
 void TIM3_IRQHandler(void)
 {
@@ -105,24 +112,26 @@ void TIM3_IRQHandler(void)
    switch (State%36){
     case 0: 
       if(!FinishFlag){
-          SetSteps(200);
+          SetSteps(-200);
           F1_push(StartStepping);
       }
       break;
     case 18:\
       if(!FinishFlag){
-          SetSteps(-200);
+          SetSteps(200);
           F1_push(StartStepping);
       }
       break; 
-    case 13:
-      StateDisp++;
-      if(StateDisp%6 < 3)
-          F2_push(DisplaySteps);
-      if(StateDisp%6 > 2)
-          F2_push(DisplayRevolutions);
-     break;
      }
+   switch (State%8){
+    case 0:
+      StateDisp++;
+      if(StateDisp%DispShowDelay < (DispShowDelay>>1))
+          F2_push(DisplaySteps);
+      if(StateDisp%DispShowDelay > (DispShowDelay>>1))
+          F2_push(DisplayRevolutions);
+      break;
+   }
    State++;
   }
   

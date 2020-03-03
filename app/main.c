@@ -27,7 +27,7 @@ int main(void)
   F1_QueueIni();
   F2_QueueIni();
   ConfigureLCD();
-  SetTestRevolutions(10);
+  SetTestRevolutions(30000);
      while(1){
       F1_pull()();
       F2_pull()();
