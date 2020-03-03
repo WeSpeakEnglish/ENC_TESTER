@@ -7,7 +7,7 @@ extern uint8_t DirectionStp;
 extern uint32_t StepsRotate;
 extern uint32_t RevUp;
 extern uint32_t RevDown;
-
+extern uint8_t  FinishFlag; 
 void StartStepping(void);
 void SetSteps(int32_t Steps);
 void SetTestRevolutions(uint32_t Revolutions);

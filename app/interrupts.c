@@ -102,14 +102,18 @@ void TIM3_IRQHandler(void)
   }
   
   if(milliseconds% 100 == 0){ 
-   switch (State%24){
+   switch (State%36){
     case 0: 
-      SetSteps(200);
-      F1_push(StartStepping);
+      if(!FinishFlag){
+          SetSteps(200);
+          F1_push(StartStepping);
+      }
       break;
-    case 12:
-      SetSteps(-200);
-      F1_push(StartStepping);
+    case 18:\
+      if(!FinishFlag){
+          SetSteps(-200);
+          F1_push(StartStepping);
+      }
       break; 
     case 13:
       StateDisp++;
@@ -121,7 +125,6 @@ void TIM3_IRQHandler(void)
      }
    State++;
   }
- 
   
   milliseconds++;
 }

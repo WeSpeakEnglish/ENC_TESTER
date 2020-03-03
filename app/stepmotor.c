@@ -15,6 +15,7 @@
 #define STEPS_MOTOR_REVOLUTION  12800
 
 uint8_t volatile StopFlag = 1;
+uint8_t FinishFlag = 0 ;
 uint8_t DirectionStp = 0;
 uint32_t StepsRotate = 0;
 uint8_t Direction = 0;
@@ -44,6 +45,7 @@ void SetSteps(int32_t Steps){
  
  StepsRotate = (uint32_t)Steps * EDGESPERSTEP;
  MOTOR_DISABLE = 0;
+ GPIOB->BSRR = GPIO_BSRR_BR5;
 }
 
 void RevIncrease(void){
@@ -57,9 +59,11 @@ RevDown++;
 void StepMotorRoutine(long long * InsideCounter){
 
  if (!StopFlag){
-     if(TestRevTotal == (RevUp + RevDown)) 
-            StopFlag = 1;
-
+   if(TestRevTotal == (RevUp + RevDown)){
+   StopFlag = 1;
+   FinishFlag = 1;
+   } 
+            
    if(MOTOR_DISABLE){
      *InsideCounter = 0;
    }
@@ -74,7 +78,7 @@ void StepMotorRoutine(long long * InsideCounter){
     
     if(*InsideCounter == StepsRotate){
       MOTOR_DISABLE = 1; 
-      
+      GPIOB->BSRR = GPIO_BSRR_BS5;
       if(DirectionStp){
         GPIOA->BSRR = GPIO_BSRR_BR15;
           F1_push(RevDecrease);
@@ -83,17 +87,11 @@ void StepMotorRoutine(long long * InsideCounter){
         GPIOA->BSRR = GPIO_BSRR_BS15;
           F1_push(RevIncrease);
       }
-
     }
    }
   }
-
-    
- // if(*InsideCounter%STEPS_MOTOR_REVOLUTION == 1){
- //     screen++;
- //     screen %=6;
- //     if(screen < 3) F1_push(DisplaySteps);
-//      else F1_push(DisplayRevolutions);
- // }
+ else {
+ GPIOB->BSRR = GPIO_BSRR_BS5;
+ }
 }
 
