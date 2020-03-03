@@ -94,7 +94,8 @@ void TIM2_IRQHandler(void)
 
 void TIM3_IRQHandler(void)
 {
-  static uint32_t State = 0;
+  static uint32_t State         = 0;
+  static uint32_t StateDisp     = 0;
   
   if (TIM3->SR & TIM_SR_UIF){
     TIM3->SR &= ~TIM_SR_UIF;        // очищаем флаг прерывания 
@@ -103,58 +104,21 @@ void TIM3_IRQHandler(void)
   if(milliseconds% 100 == 0){ 
    switch (State%24){
     case 0: 
-      SetParams(360);
+      SetSteps(200);
       F1_push(StartStepping);
       break;
-    case 1:
-      break;
-    case 2: 
-      break;
-    case 3:
-      break;      
-    case 4: 
-      break;
-    case 5:
-      break; 
-    case 6: 
-      break;
-    case 7:
-      break; 
-    case 8: 
-      break;
-    case 9:
-      break; 
-    case 10: 
-      break;
-    case 11:
-      break; 
     case 12:
-      SetParams(-360);
+      SetSteps(-200);
       F1_push(StartStepping);
       break; 
     case 13:
-      break;
-    case 14: 
-      break;
-    case 15:
-      break;      
-    case 16: 
-      break;
-    case 17:
-      break; 
-    case 18: 
-      break;
-    case 19:
-      break; 
-    case 20: 
-      break;
-    case 21:
-      break; 
-    case 22: 
-      break;
-    case 23:
-      break; 
-    }
+      StateDisp++;
+      if(StateDisp%6 < 3)
+          F2_push(DisplaySteps);
+      if(StateDisp%6 > 2)
+          F2_push(DisplayRevolutions);
+     break;
+     }
    State++;
   }
  

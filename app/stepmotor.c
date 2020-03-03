@@ -5,7 +5,7 @@
 
 
 #define ANGLEPERSTEP 1.8
-#define REVOLUTION_TEST_COUNT_STOP 10000
+//#define REVOLUTION_TEST_COUNT_STOP 10
 #define EDGESPERSTEP 64 
 
 
@@ -14,22 +14,27 @@
 
 #define STEPS_MOTOR_REVOLUTION  12800
 
-uint8_t volatile StopFlag = 0;
+uint8_t volatile StopFlag = 1;
 uint8_t DirectionStp = 0;
 uint32_t StepsRotate = 0;
 uint8_t Direction = 0;
 uint32_t RevUp = 0;
 uint32_t RevDown = 0;
-
+uint32_t TestRevTotal = 0;
 
 void StartStepping(void){
  StopFlag = 0;
 }
 
-void SetParams(float angle){   
+void SetTestRevolutions(uint32_t Revolutions){
+ TestRevTotal =  Revolutions;
+ StopFlag = 0;
+}
+
+void SetSteps(int32_t Steps){   
   
-  if(angle < 0){
-    angle = - angle;
+  if(Steps < 0){
+    Steps = - Steps;
     DirectionStp = 0;
 
  }
@@ -37,19 +42,24 @@ void SetParams(float angle){
      DirectionStp = 1;
  }
  
- StepsRotate = (uint32_t)((float)angle/(float)ANGLEPERSTEP)  * (float)EDGESPERSTEP;
+ StepsRotate = (uint32_t)Steps * EDGESPERSTEP;
  MOTOR_DISABLE = 0;
 }
 
 void RevIncrease(void){
 RevUp++;
+
 }
 void RevDecrease(void){
 RevDown++;
 }
 
 void StepMotorRoutine(long long * InsideCounter){
+
  if (!StopFlag){
+     if(TestRevTotal == (RevUp + RevDown)) 
+            StopFlag = 1;
+
    if(MOTOR_DISABLE){
      *InsideCounter = 0;
    }

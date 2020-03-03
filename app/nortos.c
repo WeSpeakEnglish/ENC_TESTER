@@ -43,19 +43,19 @@ void SimpleF2(){;};
 
 void (*F2_Queue[Q_SIZE_FAST])();
 
-inline void F2_QueueIni(void){ // initialization of Queue
+void F2_QueueIni(void){ // initialization of Queue
   F2_last = 0;
   F2_first = 0;
 }
 
-inline int F2_push(void (*pointerQ)(void) ){ // push element from the queue
+int F2_push(void (*pointerQ)(void) ){ // push element from the queue
   if ((F2_last+1)%Q_SIZE_FAST == F2_first)return 1;
   F2_Queue[F2_last++] = pointerQ;
   F2_last%=Q_SIZE_FAST;
   return 0;
 }
 
-inline void (*F2_pull(void))(void){ // pull element from the queue
+void (*F2_pull(void))(void){ // pull element from the queue
   void (*pullVar)(void);
   if (F2_last == F2_first)return SimpleF2;
   pullVar = F2_Queue[F2_first++];
@@ -71,19 +71,19 @@ void SimpleF3(){;};
 
 void (*F3_Queue[Q_SIZE_FAST])();
 
-inline void F3_QueueIni(void){ // initialization of Queue
+void F3_QueueIni(void){ // initialization of Queue
   F3_last = 0;
   F3_first = 0;
 }
 
-inline int F3_push(void (*pointerQ)(void) ){ // push element from the queue
+int F3_push(void (*pointerQ)(void) ){ // push element from the queue
   if ((F3_last+1)%Q_SIZE_FAST == F3_first)return 1;
   F3_Queue[F3_last++] = pointerQ;
   F3_last%=Q_SIZE_FAST;
   return 0;
 }
 
-inline void (*F3_pull(void))(void){ // pull element from the queue
+void (*F3_pull(void))(void){ // pull element from the queue
   void (*pullVar)(void);
   if (F3_last == F3_first)return SimpleF3;
   pullVar = F3_Queue[F3_first++];

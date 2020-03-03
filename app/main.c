@@ -25,10 +25,12 @@ int main(void)
   TIM3_init();  //
   Init_UART1(); 
   F1_QueueIni();
+  F2_QueueIni();
   ConfigureLCD();
-
+  SetTestRevolutions(10);
      while(1){
       F1_pull()();
+      F2_pull()();
      }   
 
 }
