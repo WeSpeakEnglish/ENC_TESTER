@@ -1137,9 +1137,6 @@
         </file>
     </group>
     <file>
-        <name>$PROJ_DIR$\app\delays.c</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\app\enc.c</name>
     </file>
     <file>

@@ -34,6 +34,10 @@ void (*F1_pull(void))(void){ // pull element from the queue
   return pullVar;
 }
 
+void Wait_On_F1(long long ms){
+ long long TargetTime = ms + milliseconds;
+ while(milliseconds < TargetTime)F1_pull()();
+}
 // ------ 8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----
 
 volatile int F2_last; // number of last element of fast-speed queue

@@ -8,6 +8,7 @@ extern volatile long long milliseconds;
 void F1_QueueIni(void); // initialization of Queue
 int F1_push(void (*pointerQ)(void) ); // push element from the queue
 void (*F1_pull(void))(void); // pull element from the queue
+void Wait_On_F1(long long ms); //wait procedure
 
 // ------ 8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----
 void F2_QueueIni(void); // initialization of Queue

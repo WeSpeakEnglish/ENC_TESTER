@@ -1,8 +1,8 @@
 #include "hd44780_driver.h"
+#include "nortos.h"
 
 void lcd_delay(void) {
-	volatile uint32_t tmpvar;
-	for (tmpvar=600;tmpvar!=0;tmpvar--);
+         Wait_On_F1(1);
 }
 
 void lcd_init() {
