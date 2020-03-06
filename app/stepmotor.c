@@ -32,15 +32,26 @@ void SetTestRevolutions(uint32_t Revolutions){
  StopFlag = 0;
 }
 
+//void RevIncrease(void){
+//RevUp++;
+
+//}
+//void RevDecrease(void){
+//RevDown++;
+//}
+
 void SetSteps(int32_t Steps){   
   
   if(Steps < 0){
     Steps = - Steps;
     DirectionStp = 0;
-
+    GPIOA->BSRR = GPIO_BSRR_BR15;
+    //F1_push(RevDecrease);
  }
  else{
-     DirectionStp = 1;
+    DirectionStp = 1;
+    GPIOA->BSRR = GPIO_BSRR_BS15;
+    //F1_push(RevIncrease);
  }
  
  StepsRotate = (uint32_t)Steps * EDGESPERSTEP;
@@ -48,13 +59,7 @@ void SetSteps(int32_t Steps){
  GPIOB->BSRR = GPIO_BSRR_BR5;
 }
 
-void RevIncrease(void){
-RevUp++;
 
-}
-void RevDecrease(void){
-RevDown++;
-}
 
 void StepMotorRoutine(long long * InsideCounter){
 
@@ -79,14 +84,8 @@ void StepMotorRoutine(long long * InsideCounter){
     if(*InsideCounter == StepsRotate){
       MOTOR_DISABLE = 1; 
       GPIOB->BSRR = GPIO_BSRR_BS5;
-      if(DirectionStp){
-        GPIOA->BSRR = GPIO_BSRR_BR15;
-          F1_push(RevDecrease);
-      }
-      else{ 
-        GPIOA->BSRR = GPIO_BSRR_BS15;
-          F1_push(RevIncrease);
-      }
+      if(!DirectionStp)RevDown++;
+      else RevUp++;
     }
    }
   }

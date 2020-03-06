@@ -112,13 +112,13 @@ void TIM3_IRQHandler(void)
    switch (State%36){
     case 0: 
       if(!FinishFlag){
-          SetSteps(-200);
+          SetSteps(200);
           F1_push(StartStepping);
       }
       break;
     case 18:\
       if(!FinishFlag){
-          SetSteps(200);
+          SetSteps(-200);
           F1_push(StartStepping);
       }
       break; 
